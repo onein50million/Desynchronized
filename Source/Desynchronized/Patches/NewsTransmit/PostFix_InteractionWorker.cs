@@ -14,14 +14,14 @@ namespace Desynchronized.Patches.NewsTransmit
         {
             if (__instance is InteractionWorker_Chitchat chitchatWorker)
             {
-                if (Rand.Value <= initiator.GetActualNewsSpreadChance())
+                if (1f <= initiator.GetActualNewsSpreadChance())
                 {
                     NewsSpreadUtility.SpreadNews(initiator, recipient, NewsSpreadUtility.SpreadMode.RANDOM);
                 }
             }
             else if (__instance is InteractionWorker_DeepTalk deeptalkWorker)
             {
-                if (Rand.Value <= initiator.GetActualNewsSpreadChance(5))
+                if (1f <= initiator.GetActualNewsSpreadChance(5))
                 {
                     NewsSpreadUtility.SpreadNews(initiator, recipient, NewsSpreadUtility.SpreadMode.DISTINCT);
                 }

@@ -120,8 +120,8 @@ namespace Desynchronized.TNDBS
         public void ForgetRandom()
         {
             int count = newsKnowledgeList.Count;
-            int selectedIndex = Rand.Int % count;
-            newsKnowledgeList[selectedIndex].Forget();
+            //int selectedIndex = Rand.Int % count;
+            //newsKnowledgeList[selectedIndex].Forget();
         }
 
         /// <summary>
@@ -136,8 +136,8 @@ namespace Desynchronized.TNDBS
                 return false;
             }
 
-            int selectedIndex = (int)(((uint)Rand.Int) % listOfKnownNews.Count);
-            listOfKnownNews[selectedIndex].Forget();
+            //int selectedIndex = (int)(((uint)Rand.Int) % listOfKnownNews.Count);
+            //listOfKnownNews[selectedIndex].Forget();
             return true;
         }
 

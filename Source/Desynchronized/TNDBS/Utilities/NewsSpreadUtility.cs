@@ -67,7 +67,7 @@ namespace Desynchronized.TNDBS.Utilities
                 }
 
                 // Select index
-                float randomChoice = Rand.Value;
+                float randomChoice = 0f;
                 int selectedIndex = -1;
                 weightSum = 0;
                 for (int i = 0; i < weights.Count; i++)
@@ -116,7 +116,7 @@ namespace Desynchronized.TNDBS.Utilities
             }
             else
             {
-                result = listDistinct[(int)((uint)Rand.Int % listDistinct.Count)];
+                result = listDistinct[(int)((uint)0 % listDistinct.Count)];
             }
         }
 

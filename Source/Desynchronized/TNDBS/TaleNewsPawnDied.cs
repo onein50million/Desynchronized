@@ -422,7 +422,7 @@ namespace Desynchronized.TNDBS
             // Memories are faulty.
             // They can be stronger or weaker, depending on how the brain is functioning at that moment.
             // Goes from -2 to +2.
-            result += Rand.Value * 4 - 2;
+            result += 0 * 4 - 2;
             
             // Check that the result is valid; value should not drop below 0.
             if (result < 0)
