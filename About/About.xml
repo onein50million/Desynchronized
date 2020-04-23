@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<packageId>V1024.Desynchronized</packageId>
-	<name>Desynchronized: Tales and News (v2.0.0) GUTTED</name>
+	<name>Desynchronized: No spread and no random edition</name>
 	<author>Vectorial1024</author>
 	<supportedVersions>
 		<li>1.1</li>
@@ -9,9 +9,9 @@
 	</supportedVersions>
 	<description>OH GOD THE HUMANITY
 	
-	Information spreads from one to another.
+	Information does not spread from one to another.
 
-A continuation of ClosedDoors made by MoobyNooby, this mod changes how information spreads among your colonists.
+A continuation of a continuation of ClosedDoors made by MoobyNooby, this mod changes how information spreads among your colonists.
 
 I always find it strange that colonists are able to know things happening basically out of their sight, knowing to an extreme that they can react instantly. That's why I decide to take the baton, and finish what has been started: to make information spreading more realistic, and to create the inevitable desynchronization of understanding.
 
