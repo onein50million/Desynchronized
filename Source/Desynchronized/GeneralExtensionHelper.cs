@@ -159,10 +159,10 @@ namespace Desynchronized
         /// </summary>
         /// <param name="instance"></param>
         /// <returns></returns>
-        public static float GetBaseNewsSpreadChance(this Pawn instance)
-        {
-            return instance.GetStatValue(Desynchronized_StatDefOf.NewsSpreadTendency);
-        }
+        //public static float GetBaseNewsSpreadChance(this Pawn instance)
+        //{
+        //    return instance.GetStatValue(Desynchronized_StatDefOf.NewsSpreadTendency);
+        //}
 
         /// <summary>
         /// Extension method. This method calculates the cumulative chance
@@ -174,15 +174,15 @@ namespace Desynchronized
         /// <param name="instance"></param>
         /// <param name="iterations"></param>
         /// <returns></returns>
-        public static float GetActualNewsSpreadChance(this Pawn instance, uint iterations = 1)
-        {
-            /*
-             * The geometric sequence reduction formula is used to optimize performance when
-             * given a sufficiently-high iterations parameter.
-             * And suprisingly, the resulting formula is quite simple.
-             */
-            return 1 - Mathf.Pow(1 - GetBaseNewsSpreadChance(instance), iterations);
-        }
+        //public static float GetActualNewsSpreadChance(this Pawn instance, uint iterations = 1)
+        //{
+        //    /*
+        //     * The geometric sequence reduction formula is used to optimize performance when
+        //     * given a sufficiently-high iterations parameter.
+        //     * And suprisingly, the resulting formula is quite simple.
+        //     */
+        //    return 1 - Mathf.Pow(1 - GetBaseNewsSpreadChance(instance), iterations);
+        //}
 
         public static Pawn_NewsKnowledgeTracker GetNewsKnowledgeTracker(this Pawn instance)
         {
