@@ -117,53 +117,53 @@ namespace Desynchronized.TNDBS
         /// Randomly selects a news, and forgets it.
         /// Does not check for whether the news has already been forgotten before.
         /// </summary>
-        public void ForgetRandom()
-        {
-            int count = newsKnowledgeList.Count;
-            //int selectedIndex = Rand.Int % count;
-            //newsKnowledgeList[selectedIndex].Forget();
-        }
+        //public void ForgetRandom()
+        //{
+        //    int count = newsKnowledgeList.Count;
+        //    //int selectedIndex = Rand.Int % count;
+        //    //newsKnowledgeList[selectedIndex].Forget();
+        //}
 
-        /// <summary>
-        /// Forgets one known tale-news. Returns true if successfully forgetting one.
-        /// </summary>
-        /// <returns></returns>
-        public bool ForgetOneRandom()
-        {
-            List<TaleNewsReference> listOfKnownNews = this.GetAllValidNonForgottenNewsReferences().ToList();
-            if (listOfKnownNews.Count == 0)
-            {
-                return false;
-            }
+        ///// <summary>
+        ///// Forgets one known tale-news. Returns true if successfully forgetting one.
+        ///// </summary>
+        ///// <returns></returns>
+        //public bool ForgetOneRandom()
+        //{
+        //    List<TaleNewsReference> listOfKnownNews = this.GetAllValidNonForgottenNewsReferences().ToList();
+        //    if (listOfKnownNews.Count == 0)
+        //    {
+        //        return false;
+        //    }
 
-            //int selectedIndex = (int)(((uint)Rand.Int) % listOfKnownNews.Count);
-            //listOfKnownNews[selectedIndex].Forget();
-            return true;
-        }
+        //    //int selectedIndex = (int)(((uint)Rand.Int) % listOfKnownNews.Count);
+        //    //listOfKnownNews[selectedIndex].Forget();
+        //    return true;
+        //}
 
-        /// <summary>
-        /// Forgets a number of tale-news that this pawn knows.
-        /// </summary>
-        /// <param name="count"></param>
-        public void ForgetRandomly(int count = 1)
-        {
-            if (count <= 0)
-            {
-                throw new ArgumentException("You cannot forget " + count + " tale-news.");
-            }
+        ///// <summary>
+        ///// Forgets a number of tale-news that this pawn knows.
+        ///// </summary>
+        ///// <param name="count"></param>
+        //public void ForgetRandomly(int count = 1)
+        //{
+        //    if (count <= 0)
+        //    {
+        //        throw new ArgumentException("You cannot forget " + count + " tale-news.");
+        //    }
 
-            while (count > 0)
-            {
-                if (ForgetOneRandom())
-                {
-                    count--;
-                }
-                else
-                {
-                    break;
-                }
-            }
-        }
+        //    while (count > 0)
+        //    {
+        //        if (ForgetOneRandom())
+        //        {
+        //            count--;
+        //        }
+        //        else
+        //        {
+        //            break;
+        //        }
+        //    }
+        //}
 
         public TaleNewsReference AttemptToObtainExistingReference(TaleNews news)
         {

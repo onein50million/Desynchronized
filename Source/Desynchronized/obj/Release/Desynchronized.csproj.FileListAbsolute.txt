@@ -7,3 +7,5 @@ D:\dev\Desynchronized\Source\Desynchronized\obj\Release\Desynchronized.csprojAss
 D:\dev\Desynchronized\Source\Desynchronized\obj\Release\Desynchronized.csproj.CoreCompileInputs.cache
 D:\dev\Desynchronized\Source\Desynchronized\obj\Release\Desynchronized.csproj.CopyComplete
 D:\dev\Desynchronized\Source\Desynchronized\obj\Release\Desynchronized.dll
+D:\dev\Desynchronized\v1.1\Assemblies\Desynchronized.pdb
+D:\dev\Desynchronized\Source\Desynchronized\obj\Release\Desynchronized.pdb

@@ -202,10 +202,10 @@ namespace Desynchronized.TNDBS
         /// <para/>
         /// May also be used by Alzheimers.
         /// </summary>
-        public void Forget()
-        {
-            newsImportance = null;
-        }
+        //public void Forget()
+        //{
+        //    newsImportance = null;
+        //}
 
         public void FlagAsShockingNews()
         {

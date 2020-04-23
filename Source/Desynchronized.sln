@@ -9,7 +9,7 @@ Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "RimWorldWin64", "..\..\RimW
 	ProjectSection(DebuggerProjectSystem) = preProject
 		PortSupplier = 00000000-0000-0000-0000-000000000000
 		Executable = D:\dev\RimWorld-dev\RimWorldWin64.exe
-		RemoteMachine = GALLIFREY
+		RemoteMachine = 
 		StartingDirectory = D:\dev\RimWorld-dev
 		Environment = dnspy_unity_dbg2=--debugger-agent=transport=dt_socket,server=y,address=127.0.0.1:56000,suspend=y,no-hide-debugger	
 		LaunchingEngine = 00000000-0000-0000-0000-000000000000
